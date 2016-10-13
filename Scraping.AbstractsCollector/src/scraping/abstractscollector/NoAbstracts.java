@@ -145,6 +145,10 @@ public class NoAbstracts {
             //title_list.clear();
             //authors_list.clear();
 
+            
+        }
+
+        try {
             for (int j = 0; j < abstracts_list.size() && j < title_list.size() && j < authors_list.size() && j < urls_list.size(); j++) {
                 research = new ResearchPapers();
                 research.setTitles(title_list.get(j));
@@ -156,9 +160,6 @@ public class NoAbstracts {
 
             }
             System.out.println("Research List isize------->" + research_list.size());
-        }
-
-        try {
             for (int r = 0; r < research_list.size(); r++) {
                 HSSFRow row = sheet.createRow(r);
                 row.createCell(0).setCellValue(research_list.get(r).getTitles());

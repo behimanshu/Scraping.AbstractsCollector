@@ -148,7 +148,12 @@ HSSFSheet sheet = workbook.createSheet("ResearchTopics");
                 //authors_list.clear();
                 
                 
-                for (int j = 0; j < abstracts_list.size() && j<title_list.size() && j<authors_list.size() && j<urls_list.size(); j++) {
+                
+            }
+
+   try
+           {
+               for (int j = 0; j < abstracts_list.size() && j<title_list.size() && j<authors_list.size() && j<urls_list.size(); j++) {
                     research = new ResearchPapers();
                     research.setTitles(title_list.get(j));
                     research.setLinks(urls_list.get(j));
@@ -159,10 +164,6 @@ HSSFSheet sheet = workbook.createSheet("ResearchTopics");
 
                 }
                 System.out.println("Research List isize------->"+research_list.size());
-            }
-
-   try
-           {
            for(int r=0;r<research_list.size();r++)
            {
            HSSFRow row = sheet.createRow(r);

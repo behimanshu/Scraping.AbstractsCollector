@@ -11,17 +11,8 @@ package scraping.abstractscollector;
  */
 public class ResearchPapers {
     
-    String titles, links, abstracts, authors,doi;
-    
-    
-    public void ResearchPapers()
-    {
-    this.titles = titles;
-    this.links=links;
-    this.abstracts=abstracts;
-    this.authors = authors;
-    this.doi=doi;
-    }
+    private String titles, links, abstracts, authors,doi;
+  
     
      public String getTitles() {
         return titles;

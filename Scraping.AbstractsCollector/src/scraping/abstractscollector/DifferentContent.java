@@ -115,9 +115,9 @@ HSSFSheet sheet = workbook.createSheet("ResearchTopics");
 						// author_count = 1;
 							authors_list.add(src.text());
 						}
-					} else if (src.getElementsByTag("a").attr("href").contains("ft_gateway.cfm")) {
+					} else if (src.getElementsByTag("a").attr("title").contains("FullText PDF")) {
 						gatewayCount++;
-						if(!src.text().isEmpty() && src.text().contains("PDF")){
+						if(!src.text().isEmpty()){
 						// url_count=1;
 						// System.out.println(src.getElementsByTag("a").attr("href"));
 							urls_list.add(src.getElementsByTag("a").attr("href"));
@@ -125,14 +125,7 @@ HSSFSheet sheet = workbook.createSheet("ResearchTopics");
 							urls_list.add("");
 						}
 					}
-                                        else if (src.getElementsByTag("a").attr("href").contains("ft_gateway.cfm")) {
-						gatewayCount++;
-						if(!src.text().isEmpty() && src.text().contains("Mp4")){
-						// url_count=1;
-						// System.out.println(src.getElementsByTag("a").attr("href"));
-							continue;
-						}
-					}
+               
                                         
                                         else if (src.getElementsByTag("a").attr("title").contains("DOI")) {
 						doiCount++;
@@ -247,8 +240,13 @@ HSSFSheet sheet = workbook.createSheet("ResearchTopics");
                 System.out.println("Abstracts list is--->"+abstracts_list.size());
                 //title_list.clear();
                 //authors_list.clear();
+        } 
                 
-                for (int j = 0; j < abstracts_list.size() && j<title_list.size() && j<authors_list.size() && j<urls_list.size(); j++) {
+
+   try
+           {
+           
+               for (int j = 0; j < title_list.size(); j++) {
                     research = new ResearchPapers();
                     research.setTitles(title_list.get(j));
                     research.setLinks(urls_list.get(j));
@@ -258,11 +256,9 @@ HSSFSheet sheet = workbook.createSheet("ResearchTopics");
                     research_list.add(research);
                 }
                 System.out.println("Research List isize------->"+research_list.size());
-            }
-
-   try
-           {
-           for(int r=0;r<research_list.size();r++)
+            
+                 
+               for(int r=0;r<research_list.size();r++)
            {
            HSSFRow row = sheet.createRow(r);
            row.createCell(0).setCellValue(research_list.get(r).getTitles());
