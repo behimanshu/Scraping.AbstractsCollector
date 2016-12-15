@@ -1,0 +1,100 @@
+Tactics development framework (demonstration)
+PAWS: adaptive game-theoretic patrolling for wildlife protection
+Measuring the effect of personality on human-IVA shared understanding
+An extensive model checking framework for multi-agent systems
+Engineering JIAC multi-agent systems
+Your digital image: factors behind demographic and psychometric predictions from social network profiles
+Request driven social sensing
+Building a narrative conversational agent using a component-based architecture
+Follow the leader in a consensus network as a solution to manage an smart grid: the Balearic Islands case
+An interactive virtual audience platform for public speaking training
+Shape and texture based facial action and emotion recognition
+A multi-agent game for studying human decision-making
+An agent-based game for the predictive diagnosis of parkinson's disease
+Ipseity: an open-source platform for synthesizing and validating artificial cognitive systems in MAS
+Multi-agent GIS system for improved spatial load forecasting
+TENDENKO: agent-based evacuation drill and emergency planning system
+Agent-based simulation testbed for on-demand transport services
+Switching between levels of decision making in MAS organisation: application to flexible assembly cells
+I'm the mayor: a robot tutor in enercities-2
+Sustainable relationship with product by implementing intentional interaction
+Micro smart grids and electromobility charging optimisation with a distributed agent application: demonstration
+Applied robotics: precision placement in RoboCup@Work
+Biologically inspired multi-robot foraging
+Logic-based and robust desicion making for robots in real world
+MIXER: why the difference?
+Platys: a framework for supporting context-aware personal agents
+Multi-agent traffic simulation for human-in-the-loop cooperative drive systems testing
+AtomicOrchid: human-agent collectives to the rescue
+MAS-planes: a multi-agent simulation environment to investigate decentralised coordination for teams of UAVs
+NormLab: a framework to support research on norm synthesis
+Semi-automated construction of adversarial agents for trainable automated forces.
+Robust dynamic optimization with application to kidney exchange
+Self-organized collective decision-making in swarms of autonomous robots
+Competing demand-side intermediary auctioneers in online advertising exchanges
+Engineering multigroup agents for complex cooperative systems
+Algorithmic and game-theoretic approaches to group scheduling
+Body language of humanoid robots for mood expression
+Robust trust management
+Agent-based methods for eliciting customer preferences to guide decision-making in complex energy networks
+Parallel algorithms for hard combinatorial optimisation problems in multi-agent systems
+Considerations for multiagent multi-objective systems
+Reflective, deliberative information gathering (doctoral consortium)
+Social motivation and point of view
+Distributed constraint optimization for mobile sensor teams
+Convex coverage set methods for multi-objective collaborative decision making
+Evolution of heterogeneous multirobot systems through behavioural diversity
+Imputation, social choice, and partial preferences
+Reasoning about context and engineering context-aware agents
+Human-agent teamwork in collaborative virtual environments
+Modeling human interactions: facets of algorithmic game theory and computational social choice
+Agent aware organizational design (doctoral consortium)
+Improving human interaction in crowdsensing
+Adaptive ontologies through social evolution
+Approximate game theoretic analysis for large simulation-based games
+Communication convention formation in large multiagent systems
+Normative agents for real-world scenarios
+Coordination in large scale multi-agent systems for complex environments
+Agents of value
+A multi-agent systems "turing challenge"
+Multiagent systems, and the search for appropriate foundations
+Multi-robot informative path planning for active sensing of environmental phenomena: a tale of two algorithms
+Sensor fault detection and diagnosis for autonomous systems
+Abnormality detection in multiagent systems inspired by the adaptive immune system
+Incrementally biasing visual search using natural language input
+Humanoid robots learning to walk faster: from the real world to simulation and back
+Collective transport of complex objects by simple robots: theory and experiments
+A decision network based framework for multiagent coalition formation
+Bayesian interaction shaping: learning to influence strategic interactions in mixed robotic domains
+Achievable push-manipulation for complex passive mobile objects using past experience
+Multi-UAV motion planning for guaranteed search
+Push and rotate: cooperative multi-agent path planning
+Event-processing in autonomous robot programming
+Cooperative control and modeling for narrow passage traversal with an ornithopter MAV and lightweight ground station
+Synergy graphs for configuring robot team members
+Speeding-up reinforcement learning through abstraction and transfer learning
+Modeling how thinking about the past and future impacts network traffic with the gosmr architecture
+Homophily, popularity and randomness: modelling growth of online social network
+The impact of culture on crowd dynamics: an empirical approach
+Using ego-centered affordances in multi-agent traffic simulation
+A flexible approach to multi-level agent-based simulation with the mesoscopic representation
+Distributed Gibbs: a memory-bounded sampling-based DCOP algorithm
+Reduction of economic inequality in combinatorial domains
+Taxation search in boolean games
+Improved max-sum algorithm for DCOP with n-ary constraints
+Optimal interdiction of attack plans
+Game-theoretic randomization for security patrolling with dynamic execution uncertainty
+Security scheduling for real-world networks
+Security games with surveillance cost and optimal timing of attack execution
+Security games with interval uncertainty
+Avoid fixed pricing: consume less, earn more, make clients happy
+A parameterized family of equilibrium profiles for three-player kuhn poker
+Online implicit agent modelling
+A study on the stability and efficiency of graphical games with unbounded treewidth
+Evaluating state-space abstractions in extensive-form games
+Eliciting high quality feedback from crowdsourced tree networks using continuous scoring rules
+Stable marriage and roommate problems with individual-based stability
+Matchings with externalities and attitudes
+Efficient parking allocation as online bipartite matching with posted prices
+False-name-proof matching
+Towards a deeper understanding of cooperative equilibrium: characterization and complexity
